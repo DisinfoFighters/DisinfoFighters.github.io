@@ -21,7 +21,7 @@
 
 	p
 	{
-	   font-size: 1em;		
+	   font-size: 1.2em;		
 	}
 
 	h2, h3, h4, h5, h6
@@ -158,6 +158,9 @@
 	#logo
 	{
 		margin-bottom: 3em;
+		position: relative; /* This creates a new stacking context */
+		z-index: 2; /* This will place the #logo above the overlay */
+
 	}
 	
 		#logo h1

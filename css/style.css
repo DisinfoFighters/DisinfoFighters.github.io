@@ -39,6 +39,7 @@
 		{
 			line-height: 2.75em;	
 		}
+
 		
 	/* Change this to whatever font weight/color pairing is most suitable */
 	strong, b
@@ -116,6 +117,7 @@
 		padding-left: 40px;
 	}
 
+
 	header
 	{
 		margin-bottom: 1em;
@@ -124,6 +126,7 @@
 		header h2
 		{
 		}
+
 	
 		header .byline
 		{
@@ -270,7 +273,8 @@
 		}
 		
 		ul.style li {
-			margin: 0;
+			/*margin: 0;*/
+			margin: 0 0 15px 0;
 			padding: 2em 0em 1.5em 0em;
 			border-top: 1px solid #ECECEC;
 		}
@@ -396,7 +400,9 @@
 	  right: 0;
 	  bottom: 0;
 	  left: 0;
-	  background: rgba(0, 0, 0, 0.55);  
+	  background: rgba(0, 0, 0, 0.55);
+	  /*background: rgba(0, 0, 0, 0);*/
+	  z-index: 1; /* This will place the overlay below the #logo */
 	}
 
 	/* donation page header */
@@ -425,6 +431,7 @@
 
 	/* index page header */
 	.index-header {
+		position: relative;
     	background: #2a2f27 url(../images/DisinfoFightersBanner1200x480.png) no-repeat;
     	/* Other styling properties */
 	}
