@@ -88,6 +88,9 @@
 
 	#nav
 	{
+		position: relative; /* This creates a new stacking context */
+		z-index: 2; /* This will place the #logo above the overlay */
+
 	}
 
 		#nav > ul > li
