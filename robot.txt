@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /googleecd29f7982102e19.html
+Disallow: /CNAME
+Disallow: /License.txt
+Disallow: /donated.html
