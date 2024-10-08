@@ -12,13 +12,12 @@
 		<meta name="keywords" content="Disinfo Fighters, vaccine disinformation, critical thinking, media literacy, science education, educational game, Reflective Thinking Games" />
 		<link rel="canonical" href="https://disinfofighters.com" />
         <script>
-        if (window.location.protocol === 'http:') {
-            window.location.replace('https://' + window.location.hostname + window.location.pathname + window.location.search);
-        } else if (window.location.pathname === '/index.html') {
+        if (window.location.pathname === '/index.html') {
             window.location.replace('https://disinfofighters.com');
+        } else if (window.location.protocol === 'http:') {
+            window.location.replace('https://' + window.location.hostname + window.location.pathname + window.location.search);
         }
-        </script> 
-        
+        </script>        
         <meta name="robots" content="index, follow">
 		<!--<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>-->
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
